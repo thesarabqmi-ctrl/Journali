@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		561F24132EA92486006F0859 /* JournaliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F24122EA92486006F0859 /* JournaliApp.swift */; };
+		561F24172EA92487006F0859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561F24162EA92487006F0859 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		561F241D2EA92487006F0859 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -25,16 +30,13 @@
 
 /* Begin PBXFileReference section */
 		561F240F2EA92486006F0859 /* Journali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Journali.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		561F24122EA92486006F0859 /* JournaliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournaliApp.swift; sourceTree = "<group>"; };
+		561F24162EA92487006F0859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		561F241C2EA92487006F0859 /* JournaliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JournaliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		561F24262EA92487006F0859 /* JournaliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JournaliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		561F24112EA92486006F0859 /* Journali */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Journali;
-			sourceTree = "<group>";
-		};
 		561F241F2EA92487006F0859 /* JournaliTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = JournaliTests;
@@ -43,6 +45,21 @@
 		561F24292EA92487006F0859 /* JournaliUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = JournaliUITests;
+			sourceTree = "<group>";
+		};
+		561F244C2EAA0B3C006F0859 /* ViewModel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		561F244D2EAA0B61006F0859 /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		561F24512EAA0BD2006F0859 /* View */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +92,11 @@
 		561F24062EA92486006F0859 = {
 			isa = PBXGroup;
 			children = (
-				561F24112EA92486006F0859 /* Journali */,
+				561F244C2EAA0B3C006F0859 /* ViewModel */,
+				561F244D2EAA0B61006F0859 /* Model */,
+				561F24512EAA0BD2006F0859 /* View */,
+				561F24122EA92486006F0859 /* JournaliApp.swift */,
+				561F24162EA92487006F0859 /* Assets.xcassets */,
 				561F241F2EA92487006F0859 /* JournaliTests */,
 				561F24292EA92487006F0859 /* JournaliUITests */,
 				561F24102EA92486006F0859 /* Products */,
@@ -108,7 +129,9 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				561F24112EA92486006F0859 /* Journali */,
+				561F244C2EAA0B3C006F0859 /* ViewModel */,
+				561F244D2EAA0B61006F0859 /* Model */,
+				561F24512EAA0BD2006F0859 /* View */,
 			);
 			name = Journali;
 			packageProductDependencies = (
@@ -212,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561F24172EA92487006F0859 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561F24132EA92486006F0859 /* JournaliApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +420,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HB4W8DU5AQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -426,6 +452,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HB4W8DU5AQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
